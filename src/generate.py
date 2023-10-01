@@ -62,7 +62,7 @@ def create_prompt_final(prev_results: str):
     Create prompt for OpenAI GPT-3.5
     """
 
-    prompt = f'''I am a media analyst, writing social media write-ups powerpoint slide, on what happened for the week, help me combine all the topics' and further summarised the information a paragraph.
+    prompt = f'''I am a media analyst, writing social media write-ups powerpoint slide, on what happened for the week, help me combine all the topics' and further summarised the information into a single paragraph.
 
 Topics: {prev_results}
 '''
